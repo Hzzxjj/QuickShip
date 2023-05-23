@@ -26,7 +26,7 @@ public class QuickShip {
         
         while (true) {
             System.out.println("\n Welcome to the QuickShip!");
-            System.out.println("1. Sign in");
+            System.out.println("1. log in");
             System.out.println("2. Register");
             System.out.println("3- Create delivery request");
             System.out.println("4- update account");
@@ -49,7 +49,7 @@ public class QuickShip {
                             System.out.println("Incorrect username or password.");
                         }
                     } else {
-                        System.out.println("You need to sign up first.");
+                        System.out.println("You need Register first.");
                     }
                     break;
                 case 2:
