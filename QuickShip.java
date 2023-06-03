@@ -347,7 +347,7 @@ public class QuiqShip {
   private static void updateAccount() {
         System.out.println("Enter your username: ");
         String name = scanner.nextLine();
-        while (!checkUserIsExists(username)) {
+        while (!checkUserIsExists(name)) {
             System.out.println("This username not found. Please enter another username:");
             username = scanner.nextLine();
         }
